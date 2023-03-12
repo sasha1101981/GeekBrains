@@ -36,6 +36,7 @@ void PrintMatrix(int[,] matr)
         System.Console.WriteLine();
     }
 }
+
 int m = ReadInt("Введите количетсво строк матрицы: ");
 int n = ReadInt("Введите количество столбцов матрицы: ");
 var myMatrix = GenerateMatrix(m, n);
